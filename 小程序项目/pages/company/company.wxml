@@ -1,0 +1,22 @@
+<!--pages/company/company.wxml-->
+<view class="body">
+  <view class="header">
+    <view class="header-input"><form><input type="text" name="" value="" placeholder="请输入你要查询的关键字"/><span class="header-input-span">搜索</span></form></view>
+  </view>
+  <view class="auto">
+    <swiper indicator-dots="{{indicatorDots}}"
+   interval="{{interval}}" duration="{{duration}}" indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+     <swiper-item>
+         <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+     </block>
+    </swiper>
+  </view>
+
+  <view class="footer">
+    <view class="footer-header"><image class="footer-header-image" src="/image/lb1.png" />
+    
+    </view>
+  </view>
+</view>

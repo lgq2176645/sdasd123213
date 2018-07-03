@@ -1,0 +1,66 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.1.1",
+	"appid": "wx85359d12a2c7db0d",
+	"projectname": "%E5%8D%81%E5%A0%B0%E5%95%86%E5%9C%88",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "join",
+					"pathName": "pages/join/join",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "sort",
+					"pathName": "pages/sort/sort",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "cpmpany",
+					"pathName": "pages/company/company"
+				}
+			]
+		}
+	}
+}

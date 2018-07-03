@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/join/join",
+    "pages/logs/logs",
+    "pages/sort/sort",
+    "pages/into/into",
+    "pages/company/company",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "十堰商圈",
+    "navigationBarTextStyle":"#eee",
+    "enablePullDownRefresh":true
+
+  },
+  "tabBar":{
+    "selectedColor": "red",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text":"首页",
+      "iconPath":"image/sy3.png",
+      "selectedIconPath":"image/sy4.png"
+    },{
+      "pagePath": "pages/join/join",
+      "text": "分类信息",
+      "iconPath": "image/fl1.png",
+      "selectedIconPath": "image/fl2.png"
+    },{
+      "pagePath": "pages/into/into",
+      "text": "发布",
+      "iconPath": "image/dh2.png",
+      "selectedIconPath": "image/dh2.png"
+    },{
+      "pagePath": "pages/company/company",
+      "text": "商家",
+      "iconPath": "image/sj1.png",
+      "selectedIconPath": "image/sj2.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "image/wd1.png",
+      "selectedIconPath": "image/wd2.png"
+    }]
+  }
+}

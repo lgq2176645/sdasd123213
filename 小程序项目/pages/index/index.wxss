@@ -1,0 +1,176 @@
+/**index.wxss**/
+.body{
+  background:#eee;
+}
+.swiper{
+  width:100%;
+  height: 340rxp;
+  text-align: center;
+}
+.swiper image{
+  display: black;
+  width:100%;
+  height:100%;
+}
+.icon{
+  display: flex;
+  font-size:28rpx;
+  background: white;
+  margin-top:20rpx;
+}
+.icon-image{
+  margin-left:10rpx;
+  width:100rpx;
+  height:100rpx;
+  text-align: center;
+}
+.icon1{
+  flex:2;
+}
+.icon2{
+  flex:5;
+}
+.icon3{
+  flex:5;
+}
+.icon2-text{
+  display: block;
+  margin:10rpx 0 0 25rpx;
+}
+.icon3-qty{
+  display: block;
+  margin:10rpx 0 0 25rpx;
+}
+.icon3qty1-color{
+  color:blue;
+}
+.icon3qty2-color{
+  color:red;
+}
+.subject{
+  display: flex;
+  margin-top:20rpx;
+  background: white;
+  font-size:28rpx;
+}
+.subject1{
+  flex: 2;
+  text-align: center;
+}
+.subject2{
+  flex: 8;
+  margin-top:23rpx;
+  color: red;
+}
+.subject3{
+  flex: 2;
+}
+.subject-image{
+  width:100rpx;
+  height:100rpx;
+}
+.occu{
+  display:flex;
+  font-size: 34rpx;
+  margin-top:20rpx;
+  background: white;
+  border-bottom:1rpx solid #eee;
+}
+.occu1{
+  flex: 1;
+}
+.occu2{
+  flex: 9;
+  color:red;
+  margin-top: 20rpx;
+}
+.occu3{
+  flex: 2;
+  margin-top: 20rpx;
+}
+.occu-image{
+  width:80rpx;
+  height:80rpx;
+  margin-top: 10rpx;
+}
+
+.rzsj{
+  background:white;
+  display: flex;
+}
+.rzsj1{
+  flex:1;
+  text-align: center;
+  font-size: 24rpx;
+}
+.rzsj-img{
+  width:150rpx;
+  height:150rpx;
+}
+
+
+.swiper-tab{
+width: 100%;
+border-bottom: 2rpx solid #ccc;
+text-align: center;
+height: 88rpx;
+line-height: 88rpx;
+font-size: 28rpx;
+}
+.swiper-tab-item{
+display: inline-block;
+width: 33.33%;
+color:red;
+}
+.active{
+color:aqua;
+border-bottom: 4rpx solid red;
+}
+
+.swiper1{
+  background: white;
+  margin-top:20rpx;
+}
+
+
+.swiper2{
+  margin-top:10rpx;
+  display:flex;
+  position: relative;
+  font-size:28rpx;
+}
+.swiper2-1{
+  flex:2;
+}
+.swiper2-image1{
+  width:100rpx;
+  height:100rpx;
+}
+.swiper2-text1{
+  margin-left:10rpx;
+  position: absolute;
+  top:1rpx;
+  left:160rpx;
+}
+.swiper2-text2{
+  margin-left:10rpx;
+  position: absolute;
+  bottom:10rpx;
+  font-size:24rpx;
+  left:160rpx;
+  border:1rpx solid 
+
+black;
+  background-color: black;
+  border-radius: 10rpx;
+  color:red;
+}
+.swiper2-button1{
+  position:absolute;
+  right:10rpx;
+  top:1rpx;
+}
+.swiper2-image2{
+  width:50rpx;
+  height:50rpx;
+}
