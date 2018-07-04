@@ -1,11 +1,31 @@
 // pages/my/my.js
+var app = getApp
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+      userInfo:{
+        avatarUrl:'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=209482008,3032162102&fm=27&gp=0.jpg',
+        ncikName:'王者重道'
+      },
+      icon: [{
+        iconImg: '/image/daifu1.png',
+        text: '代付款'
+      }, {
+        iconImg: '/image/daifa1.png',
+        text: '代发货'
+      }, {
+        iconImg: '/image/daishou1.png',
+        text: '待收货'
+      }, {
+        iconImg: '/image/yiwan1.png',
+        text: '待收货'
+      }, {
+        iconImg: '/image/tuikuan1.png',
+        text: '待收货'
+      }],
   },
 
   /**

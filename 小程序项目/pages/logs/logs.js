@@ -1,18 +1,19 @@
 // pages/logs/logs.js
+var app = getApp()
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-  
+    selected: true,
+    selected1: false
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  onLoad(e) {
+    console.log(e.title)
+    this.setData({
+      msgList: [
+        { url: "url", title: "多地首套房贷利率上浮 热点城市渐迎零折扣时代" },
+        { url: "url", title: "交了20多年的国内漫游费将取消 你能省多少话费？" },
+        { url: "url", title: "北大教工合唱团出国演出遇尴尬:被要求给他人伴唱" }]
+    });
   },
 
   /**

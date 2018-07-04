@@ -16,7 +16,88 @@
 
   <view class="footer">
     <view class="footer-header"><image class="footer-header-image" src="/image/lb1.png" />
-    
+        
+
+          <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="2000">
+                <block wx:for="{{msgList}}">
+                  <navigator url="/pages/index/index?title={{item.url}}" open-type="navigate">
+                    <swiper-item>
+                        <view class="swiper_item">{{item.title}}</view>
+                    </swiper-item>
+                  </navigator>
+                </block>
+          </swiper>
+
     </view>
+  </view>
+
+
+  <view class="coar">
+        <view class="icon" wx:for="{{icon}}">
+          <view>
+            <image class="icon-header-img" src="{{item.iconImg}}" />
+            <text class="icon-header-text">{{item.text}}</text>
+          </view>
+        </view>
+  </view>
+
+
+  <view class="enter">
+    <view class="enter-header">我要入驻</view>
+    <view class="enter-footer">
+        <swiper class="swiper_container1" vertical="true" autoplay="true" circular="true" interval="2000">
+                <block wx:for="{{msgList}}">
+                  <navigator url="/pages/index/index?title={{item.url}}" open-type="navigate">
+                    <swiper-item>
+                        <view class="swiper_item1">{{item.titler}}</view>
+                    </swiper-item>
+                  </navigator>
+                </block>
+          </swiper>
+    </view>
+  </view>
+
+
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">附近</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">新人</view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">
+      <view class="tab-left" wx:for="{{tableft}}">
+        <view class="tab-left-left"><image class="tab-left-left-image1" src="{{item.tableftImage1}}" /></view>
+        <view class="tab-left-zhon">
+          <view class="tab-left-zhon-li">
+              <view class="tab-left-zhon-li1">{{item.tablefttext1}}</view>
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+          </view>
+        </view>
+        
+        <view class="tab-ledt-right">
+         <button class="button1" bindtap="tal"><image class="tab-ledt-right-image" src="{{item.tableftImage3}}" /></button>
+        </view>
+      </view>
+  </view>
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class="tab-left" wx:for="{{tableft}}">
+        <view class="tab-left-left"><image class="tab-left-left-image1" src="{{item.tableftImage4}}" /></view>
+        <view class="tab-left-zhon">
+          <view class="tab-left-zhon-li">
+              <view class="tab-left-zhon-li1">{{item.tablefttext2}}</view>
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+              <image class="tab-left-left-image2" src="{{item.tableftImage2}}" />
+          </view>
+        </view>
+        
+        <view class="tab-ledt-right">
+          <button class="button1" bindtap="tal"><image class="tab-ledt-right-image" src="{{item.tableftImage3}}" /></button>
+        </view>
+      </view>
   </view>
 </view>

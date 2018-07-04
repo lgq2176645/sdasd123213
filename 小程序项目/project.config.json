@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -58,7 +58,13 @@
 				{
 					"id": -1,
 					"name": "cpmpany",
-					"pathName": "pages/company/company"
+					"pathName": "pages/company/company",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my"
 				}
 			]
 		}

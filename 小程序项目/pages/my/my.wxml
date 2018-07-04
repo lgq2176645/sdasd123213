@@ -1,2 +1,53 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view>
+<view class="header">
+  <view class="header-nav">
+    <image class="header-nav-image" src="{{userInfo.avatarUrl}}" />
+    <view class="header-nav-text">{{userInfo.ncikName}}</view>
+  </view>
+</view>
+
+
+<view class="footer">
+  <view class="footer-left"></view>
+  <view class="footer-zhon">
+    <view class="footer-zhon-left">
+      <view class="yuan"><image class="footer-zhon-left-image" src="/image/dd1.png" /></view>
+    </view>
+    <view class="footer-zhon-zhon">我的订单</view>
+    <view class="footer-zhon-right">查看全部订单 ></view>
+  </view>
+  <view class="footer-right"></view>
+</view>
+
+
+
+ <view class="shoopey">
+  <view class="shoopey-left"></view>
+  <view class="shoopey-zhon">
+      <view class="coar">
+        <view class="icon1" wx:for="{{icon}}">
+          <view>
+            <image class="icon-header-img" src="{{item.iconImg}}" />
+            <text class="icon-header-text">{{item.text}}</text>
+          </view>
+        </view>
+  </view> 
+
+    
+  </view>
+  <view class="shoopey-right"></view>
+ </view>
+<view class="hidden"></view>
+ <view class="active">
+  <view class="active-left"></view>
+  <view class="active-zhon">
+    <view classs="active-zhon-header">
+      <view class="active-zhon-header-left"></view>
+      <view class="active-zhon-header-zhon"></view>
+      <view class="active-zhon-header-right"></view>
+    </view>
+  </view>
+  <view class="active-right"></view>
+ </view>
+</view>

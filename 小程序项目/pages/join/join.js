@@ -54,14 +54,7 @@ Page({
         tabheadertext3: '商务服务',
         tabheaderimage2: '/image/dh3.png',
         tabheaderbutton1: '拨打电话'
-      },{
-          tabheaderimage1: 'http://img3.imgtn.bdimg.com/it/u=3241597271,1456577750&fm=27&gp=0.jpg',
-        tabheadertext1: '优惠促销，你的专选...',
-        tabheadertext2: '置顶',
-        tabheadertext3: '商务服务',
-        tabheaderimage2: '/image/dh3.png',
-        tabheaderbutton1: '拨打电话'
-      }],
+      },],
       nextmargin:'500rpx',
   },
   onLoad: function (options) {
